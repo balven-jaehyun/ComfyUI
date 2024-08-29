@@ -1,5 +1,7 @@
 <div align="center">
 
+# By balven
+
 # ComfyUI
 **The most powerful and modular diffusion model GUI and backend.**
 
