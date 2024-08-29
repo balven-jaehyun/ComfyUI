@@ -1,6 +1,12 @@
-torch
+# fix specific version as same as BiRefNet docker
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1
+--extra-index-url https://download.pytorch.org/whl/cu118
+torchvision==0.15.2
+
+#torch
 torchsde
-torchvision
+#torchvision
 torchaudio
 einops
 transformers>=4.28.1
@@ -14,7 +20,17 @@ scipy
 tqdm
 psutil
 
-#non essential dependencies:
+# non essential dependencies:
 kornia>=0.7.1
 spandrel
 soundfile
+
+# upscaler (Real-ESRGAN)
+realesrgan
+
+# BiRefNet
+numpy<2
+opencv-python
+timm
+scipy
+scikit-image
