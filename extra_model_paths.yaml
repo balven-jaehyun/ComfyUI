@@ -24,8 +24,8 @@
 #your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
 
 comfyui:
-#     base_path: path/to/comfyui/
-     checkpoints: /data/sd-data/models/Stable-diffusion
+     base_path: /data/sd-data
+     checkpoints: models/Stable-diffusion
 #     clip: models/clip/
 #     clip_vision: models/clip_vision/
 #     configs: models/configs/
@@ -33,6 +33,7 @@ comfyui:
 #     embeddings: models/embeddings/
 #     loras: models/loras/
 #     upscale_models: models/upscale_models/
+     upscale_models: models/ESRGAN
 #     vae: models/vae/
 
 #other_ui:

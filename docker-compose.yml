@@ -1,0 +1,10 @@
+services:
+
+  blend-comfy:
+    image: blend-comfy:0.1
+    container_name: blend-comfy
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=0
+    ports:
+      - "8004:8188"
+    runtime: nvidia
